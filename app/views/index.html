@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/static/css/styles.css" type="text/css">
+	</head>
+<body>
+	<form action='/results' method='post'>
+		<label class="forms"> Your name:</label>
+    			<input type='text' name='name'>
+    	<label class="forms" for="LOCATION">LOCATION:</label>
+    		<select name="location">
+  				<option value="Mountain View">Mountain View</option>
+  				<option value="Seattle">Seattle</option>
+  				<option value="Dallas">Dallas</option>
+  				<option value="Home">Home</option>
+			</select>
+		
+		<label class="forms" for="LANGUAGE">LANGUAGE:</label>
+			<select name="language">
+  				<option value="Narn">Narn</option>
+  				<option value="Minbari">Minbari</option>
+  				<option value="Centauri">Centauri</option>
+  				<option value="Vorlon">Vorlon</option>
+			</select>
+		<label class="forms">Comment: (optional)</label>
+				<input id="comments" type='text' name="coms"><br>
+    			<input id="submit" type='submit' value='submit'>
+    	</form>
+   	</body>
+</html>	
